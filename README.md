@@ -7,12 +7,12 @@
 <style>
 body {
   font-family: Arial, sans-serif;
-  background: #ffffff;
+  background: #fff;
   color: #333;
   margin: 0;
 }
 header {
-  background: #f4f4f4;
+  background: #f5f5f5;
   text-align: center;
   padding: 50px 20px;
 }
@@ -46,7 +46,7 @@ img {
 footer {
   text-align: center;
   padding: 20px;
-  background: #f4f4f4;
+  background: #f5f5f5;
   margin-top: 40px;
 }
 </style>
@@ -56,13 +56,13 @@ footer {
 
 <header>
   <h1>Elizabeth Williams</h1>
-  <p>Data Analyst transforming raw data into clear, actionable insights.</p>
+  <p>Data Analyst turning data into clear business insights using Excel and dashboards.</p>
 </header>
 
 <section>
-  <h2>About Me</h2>
+  <h2>About</h2>
   <p>
-    I specialize in analyzing datasets, building dashboards, and presenting insights that support business decisions. My work focuses on Excel analytics, data cleaning, and visualization for performance tracking and trend discovery.
+    I am a data analyst passionate about uncovering patterns and telling clear stories with data. I work with Power Query, PivotTables, Excel dashboards, and data visualization to help stakeholders understand performance trends and opportunities.
   </p>
 </section>
 
@@ -72,32 +72,31 @@ footer {
   <div class="project">
     <h3>Edmotion Pod 01 Tasks Superstore Sales Analysis</h3>
 
-    <p><strong>Project Summary:</strong>
-    Conducted a full sales performance analysis using the Superstore dataset. Built interactive dashboards, cleaned raw data with Power Query, and used PivotTables to evaluate trends across regions, categories, and customer segments.
+    <p><strong>Summary:</strong>
+    Analyzed sales and profit performance using the Sample Superstore dataset with interactive Excel pivot tables and slicers.
     </p>
 
-    <p><strong>Tools Used:</strong> Excel · Power Query · PivotTables · Dashboard Design</p>
+    <p><strong>Tools Used:</strong> Excel · Power Query · PivotTables · Dashboard</p>
 
-    <!-- Screenshots -->
-    <img src="screenshots/Dashboard.png" alt="Dashboard Overview">
-    <img src="screenshots/KPI.png" alt="KPI Section">
-    <img src="screenshots/Charts.png" alt="Charts Section">
+    <!-- Visuals — make sure these images exist in your repo -->
+    <img src="screenshots/dashboard_overview.png" alt="Dashboard overview">
+    <img src="screenshots/kpi_section.png" alt="KPI summary">
+    <img src="screenshots/charts_section.png" alt="Charts overview">
 
     <p><strong>Key Insights:</strong></p>
     <ul>
       <li>Total sales reached 1,099,862 across 5,009 orders.</li>
-      <li>Technology generated the highest profit.</li>
-      <li>West region recorded the strongest revenue.</li>
-      <li>Consumer segment produced the largest sales share.</li>
+      <li>Technology category delivered the highest profit (70,158).</li>
+      <li>West region had the strongest sales (332,444).</li>
+      <li>Consumer segment produced the largest revenue share (558,251).</li>
     </ul>
 
     <p>
       <a href="https://github.com/lizzyiwo/superstore-sales-analysis" target="_blank">
-      View Full Project Repository
+      View Project Repository
       </a>
     </p>
   </div>
-
 </section>
 
 <section>
@@ -116,7 +115,7 @@ footer {
 <section>
   <h2>Contact</h2>
   <p>Email: lizzyiwo@gmail.com</p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/elizabeth-williams50">linkedin.com/in/elizabeth-williams50</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/elizabeth-williams50">www.linkedin.com/in/elizabeth-williams50</a></p>
   <p>GitHub: <a href="https://github.com/lizzyiwo">github.com/lizzyiwo</a></p>
 </section>
 
@@ -125,7 +124,7 @@ footer {
 </footer>
 
 <script>
-document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
 </body>
